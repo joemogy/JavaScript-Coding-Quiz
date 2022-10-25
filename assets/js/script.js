@@ -1,4 +1,4 @@
-var scoreTimer = 132; 
+var scoreTimer = 100; 
 var currentQuestionIndex = 0; 
 var timeInterval = 0; 
 var headerWrapperEl = document.querySelector("#header-wrapper");
