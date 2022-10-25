@@ -7,10 +7,26 @@ var questionWrapperEl = document.querySelector("#question-wrapper");
 
 var questionArray = [
     {
+        text: "JavaScript was created in 10 days then released for the public on...",
+        choice1: "April 21st, 1995",
+        choice2: "Feb 27th, 1997",
+        choice3: "Dec 4th, 1995",
+        choice4: "Sept 3rd, 1998",
+        answer: "3"
+    },
+    {
+        text: "Which of the following is NOT a primitive type?",
+        choice1: "boolean",
+        choice2: "number",
+        choice3: "null",
+        choice4: "object",
+        answer: "4"
+    },
+    {
         text: "What is NOT a JavaScript data type?",
         choice1: "Number",
         choice2: "Undefined",
-        choice3: "Borders",
+        choice3: "Braces",
         choice4: "Boolean",
         answer: "3"
     },
@@ -23,43 +39,27 @@ var questionArray = [
         answer: "2"
     },
     {
+        text: "What is the first element in the array? ['🐏', '🦙', '🐍'].length = 0",
+        choice1: "🐏",
+        choice2: "🐍",
+        choice3: "🦙",
+        choice4: "undefined",
+        answer: "4"
+    },
+    {
         text: "What of the above operators is a AND sign?",
         choice1: "+",
-        choice2: "&",
-        choice3: "&&",
+        choice2: "&&",
+        choice3: "&",
         choice4: "||",
-        answer: "3"
+        answer: "2"
     },
     {
-        text: "Question 1",
-        choice1: "Choice 1",
-        choice2: "Choice 2",
-        choice3: "Choice 3",
-        choice4: "Choice 4",
-        answer: "3"
-    },
-    {
-        text: "Question 1",
-        choice1: "Choice 1",
-        choice2: "Choice 2",
-        choice3: "Choice 3",
-        choice4: "Choice 4",
-        answer: "3"
-    },
-    {
-        text: "Question 1",
-        choice1: "Choice 1",
-        choice2: "Choice 2",
-        choice3: "Choice 3",
-        choice4: "Choice 4",
-        answer: "3"
-    },
-    {
-        text: "What of the above options stands for OR operator ?",
-        choice1: "+",
-        choice2: "&",
-        choice3: "&&",
-        choice4: "||",
+        text: "What is x? var x = 1_1 + '1' + Number(1)",
+        choice1: "4",
+        choice2: "'4'",
+        choice3: "'69420'",
+        choice4: "1111",
         answer: "4"
     },
     {
@@ -69,6 +69,14 @@ var questionArray = [
         choice3: "&&",
         choice4: "||",
         answer: "4"
+    },
+    {
+        text: "JS is a high-level single-threaded, garbage-collected, interpreted or just-in-time compiled, prototype-based, multi-paradigm, dynamic language with a ____ event loop",
+        choice1: "multi-threaded",
+        choice2: "non-blocking",
+        choice3: "syncronous",
+        choice4: "promise-based",
+        answer: "2"
     },
     ];
 
