@@ -1,4 +1,4 @@
-var scoreTimer = 60; 
+var scoreTimer = 132; 
 var currentQuestionIndex = 0; 
 var timeInterval = 0; 
 var headerWrapperEl = document.querySelector("#header-wrapper");
@@ -94,7 +94,7 @@ questionTextEl.textContent = "JavaScript Quiz Challenge";
 questionWrapperEl.appendChild(questionTextEl);
 
 var instructionsEl = document.createElement("p");
-instructionsEl.innerHTML = "Please try your Best answering the following code-related questions !!!<br> Incorrect answers will penalize your score/time by 6 seconds."
+instructionsEl.innerHTML = "Please try your Best answering the following code-related questions !!! <br> Incorrect answers will penalize your score/time by 6 seconds."
 instructionsEl.id = "instructions";
 questionWrapperEl.appendChild(instructionsEl);
 
@@ -147,12 +147,13 @@ var initializeQuiz = function () {
     choice4El.textContent = questionArray[currentQuestionIndex].choice4;
     choiceOlEl.appendChild(choice4El);
 
+
     var feedbackWrapperEl = document.createElement("div");
     feedbackWrapperEl.id = "feedback-wrapper";
     questionWrapperEl.appendChild(feedbackWrapperEl);
     var feedbackDividerEl = document.createElement("hr");
     feedbackWrapperEl.appendChild(feedbackDividerEl);
-    var feedbackMsgEl = document.createElement("h3");
+    var feedbackMsgEl = document.createElement("h2");
     feedbackMsgEl.id = "feedback-message";
     feedbackWrapperEl.appendChild(feedbackMsgEl);
 
