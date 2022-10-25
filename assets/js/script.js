@@ -8,10 +8,10 @@ var questionWrapperEl = document.querySelector("#question-wrapper");
 var questionArray = [
     {
         text: "JavaScript was created in 10 days then released for the public on...",
-        choice1: "April 21st, 1995",
-        choice2: "Feb 27th, 1997",
-        choice3: "Dec 4th, 1995",
-        choice4: "Sept 3rd, 1998",
+        choice1: "April 21st, 110105",
+        choice2: "Feb 27th, 110107",
+        choice3: "Dec 4th, 110105",
+        choice4: "Sept 3rd, 110108",
         answer: "3"
     },
     {
@@ -21,14 +21,6 @@ var questionArray = [
         choice3: "null",
         choice4: "object",
         answer: "4"
-    },
-    {
-        text: "What is NOT a JavaScript data type?",
-        choice1: "Number",
-        choice2: "Undefined",
-        choice3: "Braces",
-        choice4: "Boolean",
-        answer: "3"
     },
     {
         text: "Which symbol is used for multi line comments in JavaScript?",
@@ -58,7 +50,7 @@ var questionArray = [
         text: "What is x? var x = 1_1 + '1' + Number(1)",
         choice1: "4",
         choice2: "'4'",
-        choice3: "'69420'",
+        choice3: "'610420'",
         choice4: "1111",
         answer: "4"
     },
