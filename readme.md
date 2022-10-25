@@ -1,6 +1,6 @@
 # JavaScript-Coding-Quiz
 https://joemogy.github.io/JavaScript-Coding-Quiz/
-## 02 Advanced CSS: Portfolio
+## 04 Web APIs: Code Quiz
 https://joemogy.github.io/JavaScript-Coding-Quiz/
 ## Description
 Short discription
